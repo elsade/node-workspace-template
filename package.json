@@ -1,0 +1,21 @@
+{
+  "name": "workspace-template",
+  "version": "1.0.0",
+  "description": "Simple boilerplate to start Node.js projects",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "NODE_ENV=development src/index.js",
+    "test": "NODE_ENV=test test -c jest.config.json",
+    "lint": "standard src/**/*.js",
+    "prettier": "prettier --no-config 'src/**/*.js'"
+  },
+  "author": "Akrura Gordillo",
+  "license": "ISC",
+  "engines": {
+    "yarn": "YARN NO LONGER USED - use npm instead."
+  },
+  "devDependencies": {
+    "prettier": "1.15.1",
+    "standard": "^12.0.1"
+  }
+}
